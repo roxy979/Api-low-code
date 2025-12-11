@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id":"String",
+  "name":"String",
+  "hourlyRate": {
+    "amount":"String",
+    "currency":"String"
+      },
+  "clientId":"",
+  "workspaceId":"String",
+  "billable":"boolean",
+  "memberships": [
+    {
+      "userId":"String",
+      "hourlyRate":"object",
+      "costRate":"object",
+      "targetId":"String",
+      "membershipType":"String",
+      "membershipStatus":"String"
+    }
+  ],
+  "color":"String",
+  "estimate": {
+    "estimate":"String",
+    "type":"String"
+  },
+  "archived":"boolean",
+  "duration":"String",
+  "clientName":"String",
+  "note":"String",
+  "costRate":"object",
+  "timeEstimate": {
+    "estimate":"String",
+    "type":"String",
+    "resetOption":"String",
+    "active":"boolean",
+    "includeNonBillable":"boolean"
+  },
+  "budgetEstimate":"String",
+  "estimateReset":"String",
+  "public":"boolean",
+  "template":"boolean",
+  "required": [
+    "workspaceId",
+    "projectId",
+    "archived",
+    "billable",
+    "clientId",
+    "color",
+    "costRate",
+    "hourlyRate",
+    "isPublic",
+    "name",
+    "note"
+  ]
+}
+
+
+

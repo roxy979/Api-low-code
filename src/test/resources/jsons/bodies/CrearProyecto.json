@@ -1,0 +1,19 @@
+{
+  "clientId": "",
+  "color": "#000000",
+  "estimate": {
+    "estimate": "PT1H30M",
+    "type": "AUTO"
+  },
+  "isPublic": true,
+  "name": "Karim",
+  "note": "Test project",
+  "tasks": [
+    {
+      "name": "Africa"
+    }
+  ]
+}
+
+
+

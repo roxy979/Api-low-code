@@ -1,0 +1,14 @@
+{
+  "remove": false,
+  "userGroups": {
+    "contains": "CONTAINS",
+    "ids": [
+      "",
+      ""
+    ],
+    "status": "ALL"
+  },
+  "userIds": [
+    "693abf609af37a6a26407053"
+  ]
+}

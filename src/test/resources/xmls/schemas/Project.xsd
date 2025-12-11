@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Project" type="ProjectType"/>
+
+    <xs:complexType name="ProjectType">
+        <xs:sequence>
+            <xs:element name="workspaceId" type="xs:string"/>
+            <xs:element name="projectId" type="xs:string"/>
+            <xs:element name="name" type="xs:string"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PhotoUrlsType">
+        <xs:sequence>
+            <xs:element name="photoUrl" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
+
+
